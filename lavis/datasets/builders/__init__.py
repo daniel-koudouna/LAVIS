@@ -38,6 +38,8 @@ from lavis.datasets.builders.retrieval_builder import (
 )
 from lavis.datasets.builders.dialogue_builder import AVSDDialBuilder
 
+from lavis.datasets.builders.kitti_builder import KITTIVQABuilder
+
 from lavis.common.registry import registry
 
 __all__ = [
@@ -63,6 +65,7 @@ __all__ = [
     "VGCaptionBuilder",
     "VGVQABuilder",
     "AVSDDialBuilder",
+    "KITTIVQABuilder"
 ]
 
 

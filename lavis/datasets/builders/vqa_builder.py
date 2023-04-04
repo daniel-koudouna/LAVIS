@@ -56,3 +56,4 @@ class GQABuilder(BaseDatasetBuilder):
         "balanced_val": "configs/datasets/gqa/balanced_val.yaml",
         "balanced_testdev": "configs/datasets/gqa/balanced_testdev.yaml",
     }
+
